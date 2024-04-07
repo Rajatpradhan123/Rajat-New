@@ -1,0 +1,824 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+width: 100%;
+height: 100vmin;
+}
+
+
+.container
+{
+    height: 100vmin;
+    width: 100%;
+    flex-wrap: wrap;
+    background-image: url(/img5.avif);
+    background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-attachment: fixed; 
+      
+}
+
+.Page1
+{
+    height: 100vmin;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ 
+   
+}
+
+
+
+.Page1
+{ 
+height: 100vmin;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+background:linear-gradient(transparent,black) ;
+}
+
+nav
+{
+    height: 5vmax;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div
+{height: 4vmax;
+    width: 5vmax;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+#N1
+{
+font-family: 'Nosifer', sans-serif;
+font-size: 2vmax;
+color: red;
+font-weight: 700;
+
+}
+
+#N2 
+{
+    width: 30vmax;
+}
+
+nav a
+{
+   font-size: 1.2vmax;
+   font-family: 'Montserrat', sans-serif;
+   color: bisque;
+   text-decoration: none;
+   color: white;
+
+}
+
+#B1
+{
+    height: 15vmax;
+    width: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12vmax;
+}
+
+#B1 span 
+{
+    color: white;
+}
+
+
+ #N3 a
+{
+    height: 5vmin;
+    width: 5vmax;
+    font-size: 1vmax;
+    border: solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vmax;
+
+}
+
+
+
+.Page1 h1
+{
+color: white;
+font-size: 6vmax;
+font-family: 'Bebas Neue', sans-serif;
+letter-spacing: 1vmax;
+ font-weight: 500;
+ text-align: center;
+
+}
+
+.Page1 p
+{
+color: white;
+font-size: 1vmax;
+text-align: center;
+ font-weight: 500;
+ font-family: 'Gilda Display', serif;
+
+}
+
+#B1> a
+{
+    height: 3vmax;
+    width: 8vmax;
+    border-radius: 2vmax;
+    color: azure;
+   border: solid rgba(255, 255, 255, 0.586);
+    font-family: 'Gilda Display', serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1vmax;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Page2
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image:url(/img2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.Page2 div
+{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+align-items: center;
+justify-content: center;
+    
+}
+
+#D1
+{
+    flex-direction: column;
+}
+
+
+
+
+#D1 h2
+{
+   
+   
+    font-size: 2vmax;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#D1 p
+{
+    color: rgba(255, 0, 0, 0.449);
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#Vid
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Page3
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.Page3 div
+{
+    height: 80%;
+    width: 60%;
+    background-color:white;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+  
+}
+
+
+
+#P3
+{
+    height: 90%;
+    width: 50%;
+    
+    background-image: url(/1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#P4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#P4 a
+{
+ height:2vmax;
+ width: 7vmax;
+ border: solid black;
+ color: black;
+ font-size: 0.8vmax;
+ font-family: 'Montserrat', sans-serif;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+
+
+#P4 h2
+{
+   
+   
+    font-size: 5vmax;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+
+}
+#P4 p
+{
+    color:rgba(0, 0, 0, 0.282);
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.Page4
+{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.Page4 nav
+{
+    background-color: black;
+    height: 5vmax;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+
+.Page4 nav div
+{
+   height: 3vmax;
+  width: 30vmax;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#M2
+{
+    width: 10vmax;
+    height: 2vmax;
+    background-color: white;
+    border-radius: 2vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+
+#M2 h5
+{
+color: rgba(0, 0, 0, 0.205);
+font-family: 'Montserrat', sans-serif;
+font-size: 1vmax;
+
+}
+
+#M2 img
+{
+    height: 1.5vmax;
+    width: 1.5vmax;
+}
+
+ nav #M1
+{
+    width: 5vmax;
+
+    
+}
+#M1 h2
+{
+   font-size: 2vmax;
+   color: white;
+   font-family: 'Smooch', cursive;
+
+}
+
+
+
+.Page4 nav div a
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vmax;
+    
+
+}
+
+.P6 
+{
+    height: 25vmax;
+    width: 100%;
+    background-color: white;
+    margin-top: 8vmax;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+   overflow-x: scroll;
+}
+
+.P6::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+
+.P6 div
+{
+    height:20vmax;
+    min-width: 20vmax;
+    border: solid black;
+   
+}
+
+#R1 
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I1.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+#R2 
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I2.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+#R3
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I3.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+
+#R4 
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I4.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+
+
+#R5
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I5.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+
+
+#R6 
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I6.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+
+#R7 
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I7.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+#R8 
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I8.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+#R9
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I9.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+
+#R10
+{
+    height:20vmax;
+    width: 20vmax;
+    background-image: url(/I10.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Page5
+{
+    height: 100vmin;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+
+.Page5 div
+{
+    height: 35vmax;
+    width: 80vmax;
+   background-image: url(/img4.avif);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+}
+
+#P8
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#P8
+{
+ height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+background:linear-gradient(transparent,black) ;
+}
+
+#P8 h2
+{
+   
+   
+    font-size: 5vmax;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+
+}
+
+span
+{
+    color: red;
+}
+#P8 p
+{
+    color:white;
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#P8 a
+{
+ height:5vmin;
+ width: 9vmax;
+ border: solid white;
+ color: white;
+ font-size: 1vmax;
+ font-family: 'Montserrat', sans-serif;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+
+
+
+.Page6
+{
+    height: max-content;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page6 #L1
+{
+    height: 50vmin;
+    width: 100%;
+    background-color: rgb(213, 209, 209);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#L1 div
+{
+    background-color: transparent;
+    height: 40vmin;
+    width: 25%;
+
+
+
+}
+
+#L1 #L2
+{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L2 div
+{
+    height: 60%;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L2 h6
+{
+    color: black;
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#L2 p
+{
+    color: rgba(0, 0, 0, 0.327);
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+
+
+
+}
+
+#L3 h6
+{
+    color: black;
+    font-size: 1vmax;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+#L3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#L3 a
+{
+    height:5vmin;
+ width: 6vmax;
+ border: solid black;
+ color: black;
+ font-size: 0.8vmax;
+ font-family: 'Montserrat', sans-serif;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ 
+}
+#L5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#L5 img
+{
+    height: 20vmin;
+    width: 20vmax;
+}
+
+#L3 div
+{
+    width: 100%;
+    height: 4vmax;
+    background-color: transparent;
+    
+}
+
+#L3 #L6
+{
+    width: 10vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#L6 img
+{
+    height: 1.5vmax;
+    width: 1.5vmax;
+    cursor: pointer;
+}
+
+#L9
+{
+    height: 2vmax;
+    width: 100%;
+    background-color: rgb(213, 209, 209);
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#L9 h6
+{
+    font-size: 0.8vmax;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+@media(max-width:600px)
+{
+    #N2 { display: none;}
+    #B1 h1 {font-size: 1.5vmax }
+    #B1 p { font-size: 1.5vmax;}
+    #B1 p span {display: none;} 
+}
